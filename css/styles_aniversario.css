@@ -1,31 +1,19 @@
-.niver-box-l {
-    display: inline-block;
-    margin-top: 40px;
-    height: 300px;
-    width: 495px;
-    border: 0px;
-    border-style: dashed;
-}
-
-.niver-box-r {
-    display: inline-block;
-    margin-top: 40px;
-    height: 300px;
-    width: 495px;
-    border: 0px;
-    border-style: dashed;
+.pai {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .niver-box-inside {
-    display: inline-block;
-    margin: 5px 23px 5px 22px;;
+    margin-top: 20px;
     height: 288px;
     width: 448px;
-    border: 1px;
+    border: 2px;
     border-style: ridge;
     border-color: black;
     border-radius: 15px;
-
+    box-shadow: 2px 1px 6px 0px rgb(37, 37, 37);
 }
 
 .nome-niver {
