@@ -49,17 +49,25 @@
         <h3>
           Gastos do mês anterior
         </h3>
-        <p class="dinheiro">
+        <p class="dinheiro" id="ocultado">
           R$ 0.000,00
         </p>
         <button class="botao">Histórico</button>
-        <button class="botao">Ocultar valor</button>
+        <button class="botao" id="ocultador">Ocultar valor</button>
         <br>
         <p>
           Gastos do mês: R$ 0.000,00
         </p>
       </div>
     </div>
+    <script>
+      const ocultador = document.querySelector('#ocultador');
+      const ocultado = document.querySelector('#ocultado');
+
+      ocultador.addEventListener('click', () => {
+          ocultado.classList.toggle('oculto');
+      });
+    </script>
   </main>
 
   <footer>
