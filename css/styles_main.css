@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'bebas';
+    src: url('../fontes/BebasNeue-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aboreto';
+    src: url('../fontes/Aboreto/Aboreto-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fontes/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');
+    font-weight: normal;
+}
+
+* {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #B8B117;
+    --cor2: rgba(63, 63, 63, 0.74);
+    --cor3: #ffde21;
+    --cor4: #BBB472;
+    --cor5: #1f0e81;
+    --cor6: #66ADFA;
+    --cor7: #150958;
+    --cor8: #F189FA;
+    --cor9: #A120AD;
+    --cor10: rgba(182, 13, 13, 0.74);
+
+    --fonte-bebas: 'bebas', cursive;
+    --fonte-aboreto: 'aboreto', cursive;
+    --fonte-montserrat: 'montserrat', cursive;
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor7));
+    min-height: 70px;
+    text-align: center;
+    padding: 25px;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-bebas);
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+}
+
+header > p{
+    color: white;
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+nav {
+    background-color: var(--cor7);
+    padding: 7px;
+    color: white;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.411);
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor6);
+    border-radius: 7px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 7px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+footer {
+    background-color: var(--cor7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

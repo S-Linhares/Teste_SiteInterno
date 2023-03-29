@@ -1,0 +1,73 @@
+.search {
+    overflow: hidden;
+}
+
+.search input[type=text] {
+    width: 97%;
+    margin: auto;
+    padding: 6px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.tabela {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    position: relative;
+    border: solid black 0px;
+    border-radius: 25px;
+    box-shadow: 2px 0px 5px 1px rgb(46, 46, 46);
+}
+
+td, th {
+    border: 0px solid black;
+    border-bottom: 3px solid white;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    border: 0px;
+}
+
+.borda-direita {
+    border-right: 2px solid white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(78, 78, 78);
+}
+
+thead, tfoot{
+    background-color: gray;
+    color: white;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+.qtd {
+    text-align: right;
+}
+
+/* codigo para centralizar div com flebox: 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+*/

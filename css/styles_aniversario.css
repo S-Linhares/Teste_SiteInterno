@@ -1,0 +1,64 @@
+.niver-box-l {
+    display: inline-block;
+    margin-top: 40px;
+    height: 300px;
+    width: 495px;
+    border: 0px;
+    border-style: dashed;
+}
+
+.niver-box-r {
+    display: inline-block;
+    margin-top: 40px;
+    height: 300px;
+    width: 495px;
+    border: 0px;
+    border-style: dashed;
+}
+
+.niver-box-inside {
+    display: inline-block;
+    margin: 5px 23px 5px 22px;;
+    height: 288px;
+    width: 448px;
+    border: 1px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 15px;
+
+}
+
+.nome-niver {
+    margin: none;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: var(--fonte-montserrat);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.411);
+    color: rgb(26, 26, 26);
+}
+
+.num-dia {
+    display: inline-block;
+    height: 110px;
+    width: 448px;
+    margin: none;
+    margin-top: 50px;
+    text-align: center;
+    font-family: var(--fonte-aboreto);
+    font-size: 5em;
+    color: var(--cor10);
+    font-weight: bold;
+}
+
+.contagem {
+    display: inline-block;
+    margin: none;
+    margin-top: 25px;
+    width: 448px;
+    height: 82px;
+    text-align: center;
+    font-family: var(--fonte-montserrat);
+    font-size: 1.4em;
+    font-weight: bold;
+}
