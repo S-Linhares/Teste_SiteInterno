@@ -1,5 +1,10 @@
+.pai {
+    display: flex;
+    justify-content: space-between;
+}
+
 .valores {
-    max-width: 400px;
+    width: 400px;
     height: 200px;
     margin-top: 20px;
     overflow: hidden;
