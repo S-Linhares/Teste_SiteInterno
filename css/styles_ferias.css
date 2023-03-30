@@ -45,3 +45,40 @@ thead, tfoot{
 tbody > tr:nth-child(2n) {
     background-color: lightgray;
 }
+
+tbody > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border-right: 3px solid black;
+}
+
+.info {
+    border-right: 3px solid black;
+}
+
+.mes {
+    border-right: 0px;
+    border-left: 3px solid black;
+}
+
+.samuel {
+    background-color: #FF0000;
+}
+
+.igor {
+    background-color: #00FF00;
+}
+
+.gabriel {
+    background-color: #FF00FF;
+}
+
+.vazio {
+    background-color: white;
+}
+
+body > main > article > h2 {
+    margin-top: 50px;
+}
