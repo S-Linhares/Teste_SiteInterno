@@ -29,6 +29,7 @@ td {
 
 .borda-direita {
     border-right: 2px solid white;
+    border-bottom: 2px solid black;
 }
 
 thead > tr > th {
@@ -61,6 +62,7 @@ tbody > tr > th {
 .mes {
     border-right: 0px;
     border-left: 3px solid black;
+    background-color: #1f0e81bb;
 }
 
 .samuel {
@@ -77,6 +79,22 @@ tbody > tr > th {
 
 .vazio {
     background-color: white;
+}
+
+.cabecalho_esquerda {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    color: white;
+    background-color: #1f0e81bb;
+}
+
+.pe_resultado {
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    color: black;
+    background-color: white;
+    font-weight: bold;
 }
 
 body > main > article > h2 {
