@@ -1,0 +1,11 @@
+.formulario {
+    margin-top: 20px;
+}
+
+.formulario > form > div {
+    margin-bottom: 15px;
+}
+
+.texto {
+    width: 250px;
+}

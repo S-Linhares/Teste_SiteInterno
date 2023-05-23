@@ -45,3 +45,44 @@ thead, tfoot{
 tbody > tr:nth-child(2n) {
     background-color: lightgray;
 }
+
+.novo_equip_botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    padding: 8px;
+}
+
+.novo_equip_botao:hover {
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+.novo_equip {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.icone_botao {
+    background-image: url(../imgs/plus32.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.texto_botao {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icone_botao_saida {
+    background-image: url(../imgs/minus32.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
