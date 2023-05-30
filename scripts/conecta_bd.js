@@ -1,7 +1,7 @@
 const { Client } = require('pg');
 
 // Configuração para conexão com o banco de dados (postgreSQL)
-const config = {
+var config = {
     user: 'postgres',
     host: 'localhost',
     database: 'teste_conexao',
@@ -11,7 +11,7 @@ const config = {
 
 //Função que faz a conexão ao banco de dados
 async function conecta_db(){
-    const client = new Client(config);
+    var client = new Client(config);
     await client.connect();
     console.log('Conexão estabelecida com sucesso!');
     return client;
@@ -19,9 +19,9 @@ async function conecta_db(){
 
 //Função que executa os comandos SQL
 async function executa_comandos(comando){
-    const client = await conecta_db();
+    var client = await conecta_db();
     try {
-        const result = await client.query(comando);
+        var result = await client.query(comando);
         return result.rows;
     }catch (error){
         console.error('Erro ao executar consulta:', error);
@@ -33,8 +33,8 @@ async function executa_comandos(comando){
 
 //Função que recebe comandos das operações
 async function insert(comando){
-    const comando_interno = comando;
+    var comando_interno = comando;
     await executa_comandos(comando_interno);
 }
 
-export {insert};
+module.exports = insert;
