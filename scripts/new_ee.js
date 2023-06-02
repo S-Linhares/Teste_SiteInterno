@@ -1,5 +1,3 @@
-import insert from './bundle';
-
 function captura_dados(){
     var dispositivo = document.getElementById('nome_dispositivo').value;
     var patrimonio = document.getElementById('patrimonio').value;
@@ -9,7 +7,8 @@ function captura_dados(){
 
     var comando = "INSERT INTO equip_externo (dispositivo, patrimonio, remetente, data_entrada, obs) VALUES ('"+dispositivo+"', '"+patrimonio+"', '"+remetente+"', '"+data_entrada+"', '"+obs+"');";
 
-    insert(comando);
+    
+
 }
 
 document.addEventListener('DOMContentLoaded', function() {

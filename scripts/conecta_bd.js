@@ -1,4 +1,4 @@
-const { Client } = pg;
+const { Client } = require('pg');
 
 // Configuração para conexão com o banco de dados (postgreSQL)
 var config = {
